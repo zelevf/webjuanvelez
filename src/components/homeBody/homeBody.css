@@ -1,4 +1,168 @@
-.homeBody {
-  height: 100vw;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body .homeBody {
+  padding-top: 4vw;
+}
+
+body .homeBody .homeCover {
+  position: fixed;
+  width: 100%;
+  height: 45vw;
+  background-image: url("./home.JPG");
+  background-size: cover;
+  z-index: 3;
+}
+
+body .homeBody .homeCover h3 {
+  margin: 0vw;
+  padding: 2vw 0vw;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  opacity: .5;
+}
+
+body .homeBody .homeComments {
+  margin-top: 50vw;
+  position: relative;
+  z-index: 4;
+  background: #ffffff;
+  padding: 2vw 0vw;
+}
+
+body .homeBody .homeComments h3 {
+  padding-bottom: 1vw;
+  font-size: 1.2em;
+}
+
+body .homeBody .homeComments .commentsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .homeBody .homeComments .commentsContainer .commentsDetails {
+  width: 40vw;
+  padding: 2vw;
+}
+
+body .homeBody .personalidades {
+  position: relative;
+  z-index: 4;
+  background-color: #000000;
+  padding: 2vw 0vw;
+  height: 50vw;
+}
+
+body .homeBody .personalidades .subtitle {
+  padding: 2vw 0vw;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+body .homeBody .personalidades .stanLee {
+  height: 20vw;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-top: 3vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .homeBody .personalidades .stanLee .spidaermanQuote {
+  color: #ffffff;
+  font-size: 1.6em;
+  width: 25%;
+  margin-top: 20vw;
+  background: chartreuse;
+}
+
+body .homeBody .personalidades .stanLee .stan {
+  height: 30vw;
+  background: chartreuse;
+}
+
+body .homeBody .textoIntroductorio {
+  background: #ffffff;
+  position: relative;
+  z-index: 4;
+  margin: 0vw;
+  padding: 0vw;
+}
+
+body .homeBody .textoIntroductorio .textoIntroductorioTile {
+  margin: 0vw;
+  padding: 0vw;
+  text-align: justify;
+}
+
+body .homeBody .textoIntroductorio .textoIntroductorioTile p {
+  margin: 0vw auto;
+  padding: 8vw 0vw;
+  font-size: 1.2em;
+  width: 70%;
+}
+
+body .homeBody .categorias {
+  background: #222222;
+  position: relative;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5vw 0vw;
+}
+
+body .homeBody .categorias .subtitle {
+  color: #ffffff;
+}
+
+body .homeBody .categorias .contenedorCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .homeBody .categorias .contenedorCategorias .itemCategorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+  margin: auto;
+}
+
+body .homeBody .categorias .contenedorCategorias .itemCategorias .sutituloCategoria {
+  color: #ffffff;
 }
 /*# sourceMappingURL=homeBody.css.map */

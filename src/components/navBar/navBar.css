@@ -11,7 +11,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(34, 34, 34, 0.603);
+  background: rgba(34, 34, 34, 0.774);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 .header .empresa {
@@ -26,6 +29,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-decoration: none;
+  z-index: 1;
 }
 
 .header .empresa h3 {

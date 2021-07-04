@@ -1,3 +1,148 @@
-.homeBody {
-    height: 100vw;
+body {
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+
+    .homeBody {
+        padding-top: 4vw;
+
+        .homeCover {
+            position: fixed;
+            width: 100%;
+            height: 45vw;
+            background-image: url('./home.JPG');
+            background-size: cover;
+            z-index: 3;
+    
+            h3 {
+                margin: 0vw;
+                padding: 2vw 0vw;
+                width: 100%; 
+                position: sticky;
+                opacity: .5;
+            }
+        }
+
+        .homeComments {
+            margin-top: 50vw;
+            position: relative;
+            z-index: 4;
+            background: #ffffff;
+            padding: 2vw 0vw;
+
+            h3 {
+                padding-bottom: 1vw;
+                font-size: 1.2em;
+            }
+
+            .commentsContainer {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                
+                .commentsDetails {
+                    width: 40vw;
+                    padding: 2vw;
+                }
+            }
+        }
+
+        .personalidades {
+            position: relative;
+            z-index: 4;
+            background-color: #000000;
+            // margin: -1.6vw;
+            padding: 2vw 0vw;
+            height: 50vw;
+            
+            .subtitle {
+                padding: 2vw 0vw;
+                color: #ffffff;
+                font-weight: bolder;
+            }
+
+            .stanLee {
+                height: 20vw;
+                z-index: 3;
+                display: flex;
+                margin: auto;
+                padding-top: 3vw;
+                justify-content: center;
+                // background: chartreuse;
+
+
+                .spidaermanQuote {
+                    color: #ffffff;
+                    font-size: 1.6em;
+                    width: 25%;
+                    margin-top: 20vw;
+                    background: chartreuse;
+
+                    // margin-left: 10vw;
+                }
+
+                .stan {
+                    height: 30vw;
+                    background: chartreuse;
+                }
+            }
+
+        }
+
+        .textoIntroductorio {
+            background: #ffffff;
+            position: relative;
+            z-index: 4;
+            margin: 0vw;
+            padding: 0vw;
+
+            .textoIntroductorioTile {
+                margin: 0vw;
+                padding: 0vw;
+                text-align: justify;
+
+                p {
+                    margin: 0vw auto;
+                    padding: 8vw 0vw;
+                    font-size: 1.2em;
+                    width: 70%;
+
+                }
+            }
+        }
+
+        .categorias {
+            background: rgb(34, 34, 34);
+            position: relative;
+            z-index: 4;
+            display: flex;
+            flex-direction: column;
+            padding: 5vw 0vw;
+
+            .subtitle {
+                color: #ffffff;
+                
+            }
+
+            .contenedorCategorias {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                .itemCategorias {
+                    display: flex;
+                    flex-direction: column;
+                    width: 20%;
+                    margin: auto;
+
+                    .sutituloCategoria {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+    }
 }
+

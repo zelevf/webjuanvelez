@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div className="empresa">
 
                     {/* <img src={logo} className="logoBox" alt="Home BOX Buenos Aires"></img> */}
-                    <h3>Juan Vélez</h3>
+                    <h3>Juan Vélez Photo</h3>
             </div>
             <nav className="navegacion">
                 <ul className="lista">
