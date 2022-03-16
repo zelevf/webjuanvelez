@@ -12,9 +12,9 @@ body .homeBody .homeCover {
   position: fixed;
   width: 100%;
   height: 45vw;
-  background-image: url("./home.JPG");
+  background-image: url("./pictures/home.png");
   background-size: cover;
-  z-index: 3;
+  z-index: 1;
 }
 
 body .homeBody .homeCover h3 {

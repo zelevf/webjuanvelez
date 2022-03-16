@@ -4,6 +4,8 @@ import retrato from './pictures/retrato.png';
 import boda from './pictures/boda.png';
 import paisaje from './pictures/paisaje.png';
 import producto from './pictures/producto.png';
+import { Contact } from '../contact/contact';
+
 
 export const HomeBody = () => {
     
@@ -59,7 +61,7 @@ export const HomeBody = () => {
                 </div>
             </div>
 
-
+            <Contact></Contact>
         </div>
     )
 }

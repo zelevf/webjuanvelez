@@ -32,19 +32,10 @@
   z-index: 1;
 }
 
-.header .empresa h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-decoration: none;
-  color: #ffffff;
+.header .empresa .logoJuanVelez {
+  height: 2.4vw;
+  margin: auto;
+  padding: .8vw;
 }
 
 .header .empresa .empresaDetalles {
@@ -62,12 +53,6 @@
   display: flex;
   flex-direction: row;
   text-decoration: none;
-}
-
-.header .empresa .empresaDetalles .logoBox {
-  height: 2em;
-  margin: auto;
-  margin-right: 1vw;
 }
 
 .header .navegacion {
